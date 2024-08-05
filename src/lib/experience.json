@@ -2,10 +2,10 @@
     {
         "organisation": "Opalina Technologies",
         "organisationLink": "https://www.opalina.in/",
-        "location" : "Noida",
+        "location": "Noida",
         "position": "Java Intern",
         "isNPO": false,
-        "description": "Worked on 2 client projects using Java on Spring Boot and MongoDB. Built and solved complex business logic, contributing around 60,000 lines of code. Faced challenges like sending Mails and SMS, generating CSV files, building MongoDB queries & aggregation pipelines using MongoClient, and configuring Push Notifications using Firebase.",
+        "description": "Worked on 2 client projects since inspection stage using Java on Spring Boot and MongoDB contributing around 60,000 lines of code. Focus was to implement business logic and develop REST APIs where I faced and solved challenges like sending Mails and SMS, generating CSV files, and building MongoDB queries & aggregation pipelines using MongoClient resulting in 40% faster API response.",
         "timeline": "Nov 23 - May 2024",
         "skills": [
             "Java",
@@ -20,11 +20,11 @@
     },
     {
         "organisation": "Alumni Relational Cell",
-        "location" : "Maharaja Surajmal Institute",
+        "location": "Maharaja Surajmal Institute",
         "organisationLink": "https://www.linkedin.com/company/alumni-association-student-council/",
         "isNPO": true,
         "position": "Fullstack Developer",
-        "description": "Worked on 2 client projects using Java on Spring Boot and MongoDB. Built and solved complex business logic, contributing around 60,000 lines of code. Faced challenges like sending Mails and SMS, generating CSV files, building MongoDB queries & aggregation pipelines using MongoClient, and configuring Push Notifications using Firebase.",
+        "description": "Developed a web app to showcase the Alumni Relations Cell of Maharaja Surajmal Institute, Delhi. The app displays events, teams, and galleries. Utilized React.js and Tailwind CSS for the client side, and a headless CMS, Sanity, for the server side.",
         "timeline": "Mar 2024 - Present",
         "skills": [
             "React.js",
@@ -42,11 +42,11 @@
     },
     {
         "organisation": "Computer Society of India",
-        "location" : "Maharaja Surajmal Institute",
+        "location": "Maharaja Surajmal Institute",
         "organisationLink": "https://www.linkedin.com/company/csi-msi/?originalSubdomain=in",
         "isNPO": true,
         "position": "Frontend Developer",
-        "description": "Worked on 2 client projects using Java on Spring Boot and MongoDB. Built and solved complex business logic, contributing around 60,000 lines of code. Faced challenges like sending Mails and SMS, generating CSV files, building MongoDB queries & aggregation pipelines using MongoClient, and configuring Push Notifications using Firebase.",
+        "description": "Developed a web portfolio for Melius - Consulting and Analytics Club, Delhi, showcasing their teams, events, and projects. Utilized React.js and Tailwind CSS to build a seamless user interface for the client-side application.",
         "timeline": "Apr 2023 - Present",
         "skills": [
             "React.js",

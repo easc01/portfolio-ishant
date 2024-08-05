@@ -45,7 +45,7 @@
     {
         "title": "ARC - MSI",
         "thumbnail": "/arc.png",
-        "description": "Portfolio of a Alumni Committee of Maharaja Surajmal Institute",
+        "description": "Developed a web app for the Alumni Relations Cell of Maharaja Surajmal Institute, Delhi, showcasing events, teams, and galleries using React.js, Tailwind CSS.",
         "link": "https://aasc-client-dev.vercel.app/",
         "date": "March 2024",
         "github": "https://github.com/ishantSikdar/aasc-client",
@@ -59,7 +59,7 @@
     {
         "title": "Melius - MSI",
         "thumbnail": "/melius.png",
-        "description": "Portfolio of a Melius - Consulting Club of Maharaja Surajmal Institute",
+        "description": "Created a portfolio for Melius - Consulting and Analytics Club, Delhi, displaying teams, events, and projects with a user-friendly interface using React.js and Tailwind CSS.",
         "link": "https://meliuscac.in/",
         "github": "https://github.com/ishantSikdar/MeliusWebsite_Live",
         "date": "October 2023",
@@ -73,7 +73,7 @@
     {
         "title": "SpaceX",
         "thumbnail": "/spacex.png",
-        "description": "SpaceX UI Clone",
+        "description": "Developed a UI clone of 'spacex.com' using raw CSS and JavaScript. Created interactive and visually appealing animations to closely match the official 'spacex.com' site.",
         "link": "https://ishantsikdar.github.io/SpaceX/",
         "date": "October 2023",
         "github": "https://github.com/ishantSikdar/SpaceX",

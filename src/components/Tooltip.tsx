@@ -12,7 +12,7 @@ const Tooltip: React.FC<TooltipProps> = ({
   text,
   children,
   position = 'top',
-  className: className = '',
+  className = '',
 }) => {
   let positionClasses;
 
@@ -37,13 +37,11 @@ const Tooltip: React.FC<TooltipProps> = ({
     <div className="relative group inline-block">
       <div className="relative">{children}</div>
       <div
-        className={`absolute ${positionClasses} opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out bg-gray-800 text-white text-xs rounded-full ${className}`}
-        style={{ whiteSpace: 'nowrap' }}
+        className={`absolute ${positionClasses} opacity-0 group-hover:opacity-100 transform scale-75 group-hover:scale-100 transition-transform duration-300 ease-in-out bg-gray-800 text-white text-xs rounded-full ${className}`}
       >
-        <OvalTextBox text={text} />
+        <OvalTextBox text={text} className={className} />
       </div>
     </div>
-
   );
 };
 

@@ -16,6 +16,15 @@ module.exports = {
 
     extend: {
       animation: {
+        grid: "grid 15s linear infinite",
+      },
+      keyframes: {
+        grid: {
+          "0%": { transform: "translateY(-50%)" },
+          "100%": { transform: "translateY(0)" },
+        },
+      },
+      animation: {
         "backgroundPositionSpin": "background-position-spin 3000ms infinite alternate",
         "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
       },

@@ -14,8 +14,8 @@ function App() {
         <HeroSection />
         <About />
         <Experience />
-        <Skills />
         <Projects />
+        <Skills />
         <Footer />
       </div>
     </div>

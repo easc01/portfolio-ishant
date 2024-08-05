@@ -1,0 +1,87 @@
+[
+    {
+        "title": "eWallet",
+        "thumbnail": "/ewallet.png",
+        "description": "Aims to perform operations like a real e-wallet applications like PayTM. Transfer funds from one user to another, deposit and withdraw funds from external banks.",
+        "link": "https://paytm.easc01.com",
+        "date": "July 2024",
+        "github": "https://github.com/ishantSikdar/ewallet-paytm",
+        "skills": [
+            "TypeScript",
+            "Next.js",
+            "PostgreSQL",
+            "Node.js",
+            "Docker",
+            "CI/CD",
+            "Turborepo",
+            "React.js",
+            "Recoil.js",
+            "Prisma",
+            "Tailwind CSS",
+            "AWS"
+        ]
+    },
+    {
+        "title": "Sway",
+        "thumbnail": "/sway.png",
+        "description": "Streamline access to educational content from YouTube. Users can search for topics that they want to study, and the app will provide curated subtopics with relevant YouTube videos.",
+        "link": "https://sway.easc01.com",
+        "date": "June 2024",
+        "github": "https://github.com/ishantSikdar/sway-client",
+        "skills": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Recoil.js",
+            "JavaScript",
+            "AWS",
+            "Websockets",
+            "Tailwind CSS",
+            "Docker",
+            "CI/CD"
+        ]
+    },
+    {
+        "title": "ARC - MSI",
+        "thumbnail": "/arc.png",
+        "description": "Portfolio of a Alumni Committee of Maharaja Surajmal Institute",
+        "link": "https://aasc-client-dev.vercel.app/",
+        "date": "March 2024",
+        "github": "https://github.com/ishantSikdar/aasc-client",
+        "skills": [
+            "JavaScript",
+            "React.js",
+            "Tailwind CSS",
+            "Vercel"
+        ]
+    },
+    {
+        "title": "Melius - MSI",
+        "thumbnail": "/melius.png",
+        "description": "Portfolio of a Melius - Consulting Club of Maharaja Surajmal Institute",
+        "link": "https://meliuscac.in/",
+        "github": "https://github.com/ishantSikdar/MeliusWebsite_Live",
+        "date": "October 2023",
+        "skills": [
+            "JavaScript",
+            "React.js",
+            "Tailwind CSS",
+            "Git"
+        ]
+    },
+    {
+        "title": "SpaceX",
+        "thumbnail": "/spacex.png",
+        "description": "SpaceX UI Clone",
+        "link": "https://ishantsikdar.github.io/SpaceX/",
+        "date": "October 2023",
+        "github": "https://github.com/ishantSikdar/SpaceX",
+        "dockerhub": [],
+        "skills": [
+            "JavaScript",
+            "CSS",
+            "HTML"
+        ]
+    }
+]

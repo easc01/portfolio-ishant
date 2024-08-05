@@ -14,7 +14,7 @@ export default function Skills() {
 
     <div className="z-50">
       <div className="flex items-center gap-4 py-4">
-        <h1 className="md:text-center text-4xl lg:text-5xl font-thin text-nowrap">Tech Stack</h1>
+        <h1 className="md:text-center text-4xl lg:text-5xl font-thin text-nowrap">My Tech Stack</h1>
         <div className="w-full h-[1px] bg-warm-white"></div>
       </div>
 

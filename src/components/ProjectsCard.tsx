@@ -13,7 +13,7 @@ interface ProjectProps {
   github: string,
 }
 
-export default function ProjectCard({ className, title, description, date, skills, thumbnail, link, github }: ProjectProps) {
+export default function ProjectCard({ title, description, date, skills, link, github }: ProjectProps) {
   return <div className={`border-b-2 border-brown-white hover:bg-pitch-black/20 px-2 md:px-10 lg:px-24 hover:rounded-xl flex flex-col md:flex-row justify-between items-center py-8`}>
     <div className="h-full flex md:flex-col md:gap-8 justify-between w-full md:w-max">
       <div>

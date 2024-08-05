@@ -13,11 +13,17 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+
     extend: {
       animation: {
+        "backgroundPositionSpin": "background-position-spin 3000ms infinite alternate",
         "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
       },
       keyframes: {
+        "background-position-spin": {
+          "0%": { backgroundPosition: "top center" },
+          "100%": { backgroundPosition: "bottom center" },
+        },
         "border-beam": {
           "100%": {
             "offset-distance": "100%",
@@ -32,7 +38,8 @@ module.exports = {
         'pitch-black': '#0a0a0a',
         'brown-white': '#212320',
         'black': '#181818',
-        'warm-white': '#ffffe3'
+        'warm-white': '#ffffe3',
+        'aqua-blue': '#6bc5c3',
       },
       keyframes: {
         "accordion-down": {

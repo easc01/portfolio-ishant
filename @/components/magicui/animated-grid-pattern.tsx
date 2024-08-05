@@ -3,7 +3,7 @@
 import { useEffect, useId, useRef, useState } from "react";
 import { motion } from "framer-motion";
 
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 
 interface GridPatternProps {
   width?: number;
@@ -18,7 +18,7 @@ interface GridPatternProps {
   repeatDelay?: number;
 }
 
-export function GridPattern({
+export default function AnimatedGridPattern({
   width = 40,
   height = 40,
   x = -1,
@@ -146,5 +146,3 @@ export function GridPattern({
     </svg>
   );
 }
-
-export default GridPattern;

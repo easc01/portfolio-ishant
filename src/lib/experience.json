@@ -1,0 +1,64 @@
+[
+    {
+        "organisation": "Opalina Technologies",
+        "organisationLink": "https://www.opalina.in/",
+        "location" : "Noida",
+        "position": "Java Intern",
+        "isNPO": false,
+        "description": "Worked on 2 client projects using Java on Spring Boot and MongoDB. Built and solved complex business logic, contributing around 60,000 lines of code. Faced challenges like sending Mails and SMS, generating CSV files, building MongoDB queries & aggregation pipelines using MongoClient, and configuring Push Notifications using Firebase.",
+        "timeline": "Nov 23 - May 2024",
+        "skills": [
+            "Java",
+            "Spring Boot",
+            "REST APIs",
+            "MongoDB",
+            "Git",
+            "Linux",
+            "AWS"
+        ],
+        "projects": []
+    },
+    {
+        "organisation": "Alumni Relational Cell",
+        "location" : "Maharaja Surajmal Institute",
+        "organisationLink": "https://www.linkedin.com/company/alumni-association-student-council/",
+        "isNPO": true,
+        "position": "Fullstack Developer",
+        "description": "Worked on 2 client projects using Java on Spring Boot and MongoDB. Built and solved complex business logic, contributing around 60,000 lines of code. Faced challenges like sending Mails and SMS, generating CSV files, building MongoDB queries & aggregation pipelines using MongoClient, and configuring Push Notifications using Firebase.",
+        "timeline": "Mar 2024 - Present",
+        "skills": [
+            "React.js",
+            "JavaScript",
+            "Tailwind CSS",
+            "Vite",
+            "Vercel"
+        ],
+        "projects": [
+            {
+                "title": "ARC - MSI",
+                "link": "https://aasc-client-dev.vercel.app/"
+            }
+        ]
+    },
+    {
+        "organisation": "Computer Society of India",
+        "location" : "Maharaja Surajmal Institute",
+        "organisationLink": "https://www.linkedin.com/company/csi-msi/?originalSubdomain=in",
+        "isNPO": true,
+        "position": "Frontend Developer",
+        "description": "Worked on 2 client projects using Java on Spring Boot and MongoDB. Built and solved complex business logic, contributing around 60,000 lines of code. Faced challenges like sending Mails and SMS, generating CSV files, building MongoDB queries & aggregation pipelines using MongoClient, and configuring Push Notifications using Firebase.",
+        "timeline": "Apr 2023 - Present",
+        "skills": [
+            "React.js",
+            "JavaScript",
+            "Tailwind CSS",
+            "Git"
+        ],
+        "projects": [
+            {
+                "title": "Melius - MSI",
+                "link": "https://www.meliuscac.in/"
+            }
+        ]
+    }
+]

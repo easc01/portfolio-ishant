@@ -5,7 +5,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <div className="h-[100dvh] relative flex w-full flex-col items-center justify-center font-poppins">
+      <div className="h-[100dvh] relative flex w-full flex-col items-center justify-center">
         <span className="md:text-left flex flex-col items-center gap-2 z-30 font-bold">
           <p className="p-2 font-semibold border-white w-max">Hello, I'm Ishant, a</p>
           <div className="font-obitron uppercase font-extrabold text-center tracking-widest text-4xl md:text-5xl lg:text-6xl">

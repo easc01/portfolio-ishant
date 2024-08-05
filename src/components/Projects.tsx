@@ -1,9 +1,12 @@
 import ProjectCard from "./ProjectsCard";
 import projectsList from "../lib/projects.json";
 import Particles from "../../@/components/magicui/particles";
+import { useScrollContext } from "../contexts/ScrollContext";
 
 export default function Projects() {
-  return <div className="relative py-4">
+  const projectRef = useScrollContext()[2];
+
+  return <div ref={projectRef} className="relative py-4">
     <span className="relative z-30">
       <div className="flex items-center gap-4 pb-4">
         <h1 className="md:text-center text-4xl lg:text-5xl font-thin text-nowrap">My Past Work</h1>

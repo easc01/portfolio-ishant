@@ -1,11 +1,14 @@
 import AnimatedGridPattern from "../../@/components/magicui/animated-grid-pattern";
 import { cn } from "../../@/lib/utils";
+import { useScrollContext } from "../contexts/ScrollContext";
 import ExperienceTimeline from "../lib/experience.json";
 import ExperienceCard from "./ExperienceCard";
 
 export default function Experience() {
+  const experienceRef = useScrollContext()[1];
+  
   return (
-    <div className="relative flex flex-col">
+    <div ref={experienceRef} className="relative flex flex-col">
       {/* Mobile and Tablet Header */}
       <div className="flex items-center gap-4 lg:hidden">
         <h1 className="text-4xl mb-2 w-max font-thin">Experience</h1>
@@ -15,7 +18,7 @@ export default function Experience() {
       {/* Desktop Layout */}
       <div className="flex h-full ">
         {/* Left Side (Experience Text) */}
-        <div className="hidden lg:flex gap-4 lg:sticky lg:top-0 lg:h-screen lg:w-1/3 lg:items-center lg:justify-center lg:px-8">
+        <div className="hidden lg:flex gap-4 lg:sticky lg:top-0 lg:h-screen lg:w-1/3 lg:items-center lg:justify-center ">
           <h1 className="text-5xl font-thin">Experience</h1>
         </div>
 

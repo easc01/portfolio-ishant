@@ -1,5 +1,5 @@
 export default function About() {
-  return <div className="flex flex-col gap-4 md:gap-10 text-white font-bold md:font-normal py-16">
+  return <div className="flex flex-col gap-4 md:gap-10 text-white  py-16">
     <div className="text-left md:w-[55%]">
       <p className="md:text-3xl">I'm a <span className="text-purple-500">Software Engineering</span> Student,</p>
       <p className="text-xl md:text-4xl">Specialising in develop and deploying <span className="text-orange-300">scalable web applications</span>.</p>

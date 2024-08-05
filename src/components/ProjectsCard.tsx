@@ -24,7 +24,7 @@ export default function ProjectCard({ className, title, description, date, skill
       </div>
 
       <div className="h-max flex flex-row-reverse md:flex-row items-center gap-4">
-        <a href={link} target="_blank" className="flex items-center gap-2 text-xs rounded-full border border-brown-white px-4 py-2 w-max hover:bg-blue-600 transition-colors duration-200 ease-in-out">
+        <a href={link} target="_blank" className="flex items-center gap-2 text-xs rounded-full bg-white text-black border-brown-white px-4 py-2 w-max hover:bg-blue-600 hover:text-white transition-colors duration-200 ease-in-out">
           <p>Visit</p>
           <div className="font-bold">
             <ArrowRightIcon />

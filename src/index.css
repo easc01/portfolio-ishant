@@ -6,3 +6,28 @@ body {
     background-color: #181818;
     color: #ffffe3;
 }
+/* Global scrollbar styling */
+
+/* Chrome, Safari, and Opera */
+::-webkit-scrollbar {
+    width: 12px; /* Adjust width as needed */
+}
+
+::-webkit-scrollbar-track {
+    background: #181818; /* Track color (background of the scrollbar) */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000; /* Scrollbar color (draggable part) */
+    border-radius: 8px; /* Optional: rounded appearance */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #333; /* Optional: hover color */
+}
+
+/* Firefox */
+html {
+    scrollbar-width: thin; /* Options: auto, thin, none */
+    scrollbar-color: #000 #181818; /* scrollbar-color: thumb color, track color */
+}

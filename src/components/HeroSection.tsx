@@ -13,7 +13,7 @@ export default function HeroSection() {
         <h1 className="text-warm-white">Developer</h1>
       </div>
       <p className="text-xs lg:text-sm rounded-full mt-2 p-2 border-2 border-brown-white text-center">I build dynamic web <span className="text-orange-300">applications</span> from concept to <span className="text-cyan-400">deployment</span></p>
-      <div className="absolute bottom-20 md:bottom-10">
+      <div className="absolute bottom-10">
         <SocialsDock />
       </div>
     </span>

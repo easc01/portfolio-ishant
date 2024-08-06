@@ -1,29 +1,53 @@
+import { FileTextIcon } from "@radix-ui/react-icons";
 import { Dock, DockIcon } from "../../@/components/magicui/dock";
-import { GitHubIcon, LeetCodeIcon, LinkedInIcon, TwitterIcon } from "./Icons";
+import { GitHubIcon, LeetCodeIcon, LinkedInIcon, MailIcon, TwitterIcon } from "./Icons";
+import Tooltip from "./Tooltip";
 
 export default function SocialsDock() {
   return (
     <div className="relative">
-      <Dock  className="rounded-xl bg-pitch-black/50  border-0 h-[60px]" direction="middle">
+      <Dock className="rounded-xl bg-pitch-black/50  border-0 h-[60px]" direction="middle">
         <DockIcon className="transition-colors duration-300 ease-in-out hover:bg-brown-white p-1">
-          <a href="https://linkedin.com/in/ishantsikdar" target="_blank" >
-            <LinkedInIcon className="size-6" />
-          </a>
+          <Tooltip text="LinkedIn">
+            <a href="https://linkedin.com/in/ishantsikdar" target="_blank" >
+              <LinkedInIcon className="size-6" />
+            </a>
+          </Tooltip>
         </DockIcon>
         <DockIcon className="transition-colors duration-300 ease-in-out hover:bg-brown-white p-1">
-          <a href="https://github.com/ishantSikdar" target="_blank">
-            <GitHubIcon className="size-6" />
-          </a>
+          <Tooltip text="GitHub">
+            <a href="https://github.com/ishantSikdar" target="_blank">
+              <GitHubIcon className="size-6" />
+            </a>
+          </Tooltip>
         </DockIcon>
         <DockIcon className="transition-colors duration-300 ease-in-out hover:bg-brown-white p-1">
-          <a href="https://leetcode.com/u/eaSc01" target="_blank">
-            <LeetCodeIcon className="size-6" />
-          </a>
+          <Tooltip text="LeetCode">
+            <a href="https://leetcode.com/u/eaSc01" target="_blank">
+              <LeetCodeIcon className="size-6" />
+            </a>
+          </Tooltip>
         </DockIcon>
         <DockIcon className="transition-colors duration-300 ease-in-out hover:bg-brown-white p-1">
-          <a href="https://x.com/Ishant_Sikdar" target="_blank">
-            <TwitterIcon className="size-6" />
-          </a>
+          <Tooltip text="Twitter">
+            <a href="https://x.com/Ishant_Sikdar" target="_blank">
+              <TwitterIcon className="size-6" />
+            </a>
+          </Tooltip>
+        </DockIcon>
+        <DockIcon className="transition-colors duration-300 ease-in-out hover:bg-brown-white p-1">
+          <Tooltip text="Download Resume" className="w-max">
+            <a href="/resume.pdf" target="_blank">
+              <FileTextIcon className="size-6" />
+            </a>
+          </Tooltip>
+        </DockIcon>
+        <DockIcon className="transition-colors duration-300 ease-in-out hover:bg-brown-white p-1">
+          <Tooltip text="Mail">
+            <a href="mailto:ishant9715@gmail.com" target="_blank">
+              <MailIcon className="size-6 text-white" />
+            </a>
+          </Tooltip>
         </DockIcon>
       </Dock>
     </div>

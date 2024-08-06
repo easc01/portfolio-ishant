@@ -17,17 +17,7 @@ export default function NavBar() {
 
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      
-      // Reset the timer on every scroll event
-      clearTimeout(navbarDisapperTimer);
-
-      // Show or hide navbar based on scroll direction
-      if (currentScrollY > lastScrollY) {
-        setIsVisible(false); // Scrolling down
-      } else {
-        setIsVisible(true); // Scrolling up
-      }
-
+      setIsVisible(true);
       setLastScrollY(currentScrollY);
     };
 

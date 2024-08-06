@@ -1,5 +1,4 @@
 import About from "./components/About"
-import { Email } from "./components/Email"
 import Experience from "./components/Experience"
 import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
@@ -20,7 +19,6 @@ function App() {
           <Projects />
           <Skills />
         </div>
-        <Email />
       </div>
       <Footer />
     </ScrollProvider>

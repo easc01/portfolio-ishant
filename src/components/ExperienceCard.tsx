@@ -7,7 +7,7 @@ interface ExperienceCardProps {
   location: string,
   organisationLink: string,
   isNPO: boolean,
-  description: string,
+  description: string[],
   timeline: string,
   position: string,
   skills: string[],
@@ -18,10 +18,9 @@ interface ExperienceCardProps {
 }
 
 
-
 export default function ExperienceCard({ className, organisation, location, description, position, organisationLink, skills, timeline, isNPO, projects }: ExperienceCardProps) {
-  return <div className={`rounded-xl hover:bg-pitch-black/40 p-5 flex  md:gap-5 flex-col md:flex-row justify-center ${className}`}>
-    <p className="text-xs text-white/70  pt-1">{timeline}</p>
+  return <div className={`rounded-xl hover:bg-pitch-black/40 p-5 flex md:gap-5 flex-col md:flex-row justify-center ${className}`}>
+    <p className="text-xs text-white/70 pt-1">{timeline}</p>
 
     <div className="md:w-96">
       <div className="flex">
@@ -29,7 +28,9 @@ export default function ExperienceCard({ className, organisation, location, desc
       </div>
       <p className="text-white/70"><span className="font-semibold">{position}</span></p>
 
-      <p className="text-xs pb-4 pt-3">{description}</p>
+      <ul className="text-xs pb-4 pt-3 space-y-2">
+        {description.map((desc) => <li>{desc}</li>)}
+      </ul>
 
       {projects.length > 0 &&
         <div className="text-sm flex gap-2 flex-wrap text-white/80 pb-3">

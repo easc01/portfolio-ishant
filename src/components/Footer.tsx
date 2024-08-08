@@ -9,11 +9,11 @@ export default function Footer() {
   return <div>
     <div className="p-5 md:p-10 mx-4 mb-4 flex gap-5 flex-col md:flex-row justify-between font-poppins border border-warm-white/20 rounded-xl">
       <div className="md:w-1/4 flex flex-col justify-between">
-        <p className="md:text-2xl">
+        <p className="xl:text-2xl">
           Delivering <span className="text-cyan-500">Precision</span> and <span className="text-purple-500">Performance</span> in Tech
         </p>
 
-        <div className="hidden md:block text-lg">
+        <div className="hidden md:block xl:text-lg">
           <p>Delhi, India</p>
           <p>Ishant Sikdar © 2024</p>
         </div>
@@ -58,14 +58,14 @@ export default function Footer() {
           <p className="pb-2 md:pb-5 text-sm md:text-base text-cyan-500 font-medium ms-1">Others</p>
 
           <div className=" flex flex-col gap-2 md:gap-4">
-            <div className="flex w-max items-center  p-1">
+            <div className="flex w-max items-center p-1">
               <div className="bg-white w-max m-auto rounded-full p-1 lg:p-2">
                 <FileTextIcon className="text-black" />
               </div>
               <a href="/resume.pdf" download="resume-ishant-sikdar.pdf" className="px-2 text-sm hover:text-blue-500 transition-colors duration-200 ease-in-out">Resume</a>
             </div>
 
-            <div className="flex items-center  p-1 w-max">
+            <div className="flex items-center p-1 w-max">
               <div className="bg-white w-max m-auto rounded-full p-1 lg:p-2">
                 <MailIcon className="text-black size-4" />
               </div>

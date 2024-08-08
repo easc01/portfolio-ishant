@@ -14,7 +14,7 @@ interface ProjectProps {
 }
 
 export default function ProjectCard({ title, description, date, skills, link, github }: ProjectProps) {
-  return <div className={`border-b-2 border-brown-white hover:bg-pitch-black/20 px-2 md:px-10 lg:px-24 hover:rounded-xl flex flex-col md:flex-row justify-between items-center py-8`}>
+  return <div className={`border-b-2 border-brown-white hover:bg-pitch-black/20 px-2 md:px-10 xl:px-24 hover:rounded-xl flex flex-col md:flex-row justify-between items-center py-8`}>
     <div className="h-full flex md:flex-col md:gap-8 justify-between w-full md:w-max">
       <div>
         <span className="flex items-center gap-4">
@@ -37,7 +37,7 @@ export default function ProjectCard({ title, description, date, skills, link, gi
     </div>
 
     <div className="w-full md:w-[50%] lg:w-[40%]">
-      <p className="text-sm py-3">{description}</p>
+      <p className="text-xs xl:text-sm py-3">{description}</p>
 
       <div className="flex gap-2 text-xs flex-wrap">
         {skills.slice(0, 4).map((sk) => <OvalTextBox key={sk} text={sk} />)}

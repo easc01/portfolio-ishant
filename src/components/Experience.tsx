@@ -16,9 +16,9 @@ export default function Experience() {
       </div>
 
       {/* Desktop Layout */}
-      <div className="flex h-full ">
+      <div className="flex h-full justify-between">
         {/* Left Side (Experience Text) */}
-        <div className="hidden lg:flex gap-4 lg:sticky lg:top-0 lg:h-screen lg:w-1/3 lg:items-center lg:justify-center ">
+        <div className="hidden lg:flex gap-4 lg:sticky lg:top-0 lg:h-screen lg:w-1/2 lg:items-center lg:justify-center">
           <h1 className="text-5xl font-thin">Experience</h1>
         </div>
 

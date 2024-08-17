@@ -3,9 +3,9 @@
         "title": "eWallet",
         "thumbnail": "/ewallet.png",
         "description": "Aims to perform operations like a real e-wallet applications like PayTM. Transfer funds from one user to another, deposit and withdraw funds from external banks.",
-        "link": "https://paytm.easc01.com",
+        "link": "https://ewallet.easc01.com",
         "date": "July 2024",
-        "github": "https://github.com/ishantSikdar/ewallet-paytm",
+        "github": "https://github.com/ishantSikdar/ewallet",
         "skills": [
             "TypeScript",
             "Next.js",

@@ -7,7 +7,7 @@ export default function Footer() {
   const [homeRef, experienceRef, projectRef] = useScrollContext();
 
   return <div>
-    <div className="p-5 md:p-10 mx-4 mb-4 flex gap-5 flex-col md:flex-row justify-between font-poppins border border-warm-white/20 rounded-xl">
+    <div className="p-5 text-white md:p-10 mx-4 mb-4 flex gap-5 flex-col md:flex-row justify-between font-poppins border border-warm-white/20 rounded-xl">
       <div className="md:w-1/4 flex flex-col justify-between">
         <p className="xl:text-2xl">
           Delivering <span className="text-cyan-500">Precision</span> and <span className="text-purple-500">Performance</span> in Tech

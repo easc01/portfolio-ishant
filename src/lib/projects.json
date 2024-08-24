@@ -1,5 +1,18 @@
 [
     {
+        "title": "Disaster Data API",
+        "description": "Real-time system designed to collect, process, and distribute media content related to natural disasters from social media platforms and distribute using HTTP protocol.",
+        "date": "Aug 2024",
+        "github": "https://github.com/ishantSikdar/disaster-media-api",
+        "skills": [
+            "Java",
+            "Spring Boot",
+            "Hibernate",
+            "PostgreSQL",
+            "AWS"
+        ]
+    },
+    {
         "title": "eWallet",
         "thumbnail": "/ewallet.png",
         "description": "Aims to perform operations like a real e-wallet applications like PayTM. Transfer funds from one user to another, deposit and withdraw funds from external banks.",
@@ -40,48 +53,6 @@
             "Tailwind CSS",
             "Docker",
             "CI/CD"
-        ]
-    },
-    {
-        "title": "ARC - MSI",
-        "thumbnail": "/arc.png",
-        "description": "Developed a web app for the Alumni Relations Cell of Maharaja Surajmal Institute, Delhi, showcasing events, teams, and galleries using React.js, Tailwind CSS.",
-        "link": "https://aasc-client-dev.vercel.app/",
-        "date": "March 2024",
-        "github": "https://github.com/ishantSikdar/aasc-client",
-        "skills": [
-            "JavaScript",
-            "React.js",
-            "Tailwind CSS",
-            "Vercel"
-        ]
-    },
-    {
-        "title": "Melius - MSI",
-        "thumbnail": "/melius.png",
-        "description": "Created a portfolio for Melius - Consulting and Analytics Club, Delhi, displaying teams, events, and projects with a user-friendly interface using React.js and Tailwind CSS.",
-        "link": "https://meliuscac.in/",
-        "github": "https://github.com/ishantSikdar/MeliusWebsite_Live",
-        "date": "October 2023",
-        "skills": [
-            "JavaScript",
-            "React.js",
-            "Tailwind CSS",
-            "Git"
-        ]
-    },
-    {
-        "title": "SpaceX",
-        "thumbnail": "/spacex.png",
-        "description": "Developed a UI clone of 'spacex.com' using raw CSS and JavaScript. Created interactive and visually appealing animations to closely match the official 'spacex.com' site.",
-        "link": "https://ishantsikdar.github.io/SpaceX/",
-        "date": "October 2023",
-        "github": "https://github.com/ishantSikdar/SpaceX",
-        "dockerhub": [],
-        "skills": [
-            "JavaScript",
-            "CSS",
-            "HTML"
         ]
     }
 ]

@@ -8,9 +8,8 @@ interface ProjectProps {
   description: string,
   date: string,
   skills: string[],
-  thumbnail: string,
-  link: string,
-  github: string,
+  link?: string,
+  github?: string,
 }
 
 export default function ProjectCard({ title, description, date, skills, link, github }: ProjectProps) {
@@ -24,15 +23,16 @@ export default function ProjectCard({ title, description, date, skills, link, gi
       </div>
 
       <div className="h-max flex flex-row-reverse md:flex-row items-center gap-4">
-        <a href={link} target="_blank" className="flex items-center gap-2 text-xs rounded-full bg-white text-black border-brown-white px-4 py-2 w-max hover:bg-blue-600 hover:text-white transition-colors duration-200 ease-in-out">
+        {link && <a href={link} target="_blank" className="flex items-center gap-2 text-xs rounded-full bg-white text-black border-brown-white px-4 py-2 w-max hover:bg-blue-600 hover:text-white transition-colors duration-200 ease-in-out">
           <p>Visit</p>
           <div className="font-bold">
             <ArrowRightIcon />
           </div>
-        </a>
-        <a href={github} target="_blank">
+        </a>}
+
+        {github && <a href={github} target="_blank">
           <GitHubIcon className="size-6" />
-        </a>
+        </a>}
       </div>
     </div>
 

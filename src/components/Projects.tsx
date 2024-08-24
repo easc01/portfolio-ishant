@@ -23,7 +23,6 @@ export default function Projects() {
             link={pr.link}
             github={pr.github}
             skills={pr.skills}
-            thumbnail={pr.thumbnail}
             className=''
           />)}
       </div>

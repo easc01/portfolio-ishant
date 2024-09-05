@@ -9,20 +9,20 @@ export default function Footer() {
   return <div>
     <div className="p-5 text-white md:p-10 mx-4 mb-4 flex gap-5 flex-col md:flex-row justify-between font-poppins border border-warm-white/20 rounded-xl">
       <div className="md:w-1/4 flex flex-col justify-between">
-        <p className="xl:text-2xl">
+        <h1 className="xl:text-2xl">
           Delivering <span className="text-cyan-500">Precision</span> and <span className="text-purple-500">Performance</span> in Tech
-        </p>
+        </h1>
 
         <div className="hidden md:block xl:text-lg">
           <p>Delhi, India</p>
-          <p>Ishant Sikdar © 2024</p>
+          <h1>Ishant Sikdar © 2024</h1>
         </div>
       </div>
 
       <div className="flex flex-col md:flex-row gap-6 md:w-1/2 justify-center">
 
         <div className="md:w-1/3">
-          <p className="md:pb-5 text-sm md:text-base text-orange-300 font-medium">Explore More</p>
+          <h2 className="md:pb-5 text-sm md:text-base text-orange-300 font-medium">Explore More</h2>
 
           <div className="flex items-start md:flex-col gap-2">
             <button onClick={() => scrollToView(homeRef)} className="hover:text-blue-500 transition-colors duration-200 ease-in-out">Home</button>
@@ -32,24 +32,24 @@ export default function Footer() {
         </div>
 
         <div className="md:w-1/3">
-          <p className="pb-2 md:pb-5 text-sm md:text-base text-green-500 font-medium">Socials</p>
+          <h1 className="pb-2 md:pb-5 text-sm md:text-base text-green-500 font-medium">Socials</h1>
 
           <div className="flex items-start flex-wrap md:flex-col text-sm gap-2 md:gap-3">
             <a href="https://www.linkedin.com/in/ishantsikdar" className="flex gap-1 md:gap-3 items-center">
               <LinkedInIcon className="size-5" />
-              <p className="hover:text-blue-500 transition-colors duration-200 ease-in-out">LinkedIn</p>
+              <h2 className="hover:text-blue-500 transition-colors duration-200 ease-in-out">LinkedIn</h2>
             </a>
             <a href="https://github.com/ishantSikdar" className="flex gap-1 md:gap-3 items-center">
               <GitHubIcon className="size-5" />
-              <p className="hover:text-blue-500 transition-colors duration-200 ease-in-out">GitHub</p>
+              <h2 className="hover:text-blue-500 transition-colors duration-200 ease-in-out">GitHub</h2>
             </a>
             <a href="https://leetcode.com/u/eaSc01" className="flex gap-1 md:gap-3 items-center">
               <LeetCodeIcon className="size-5" />
-              <p className="hover:text-blue-500 transition-colors duration-200 ease-in-out">LeetCode</p>
+              <h2 className="hover:text-blue-500 transition-colors duration-200 ease-in-out">LeetCode</h2>
             </a>
             <a href="https://x.com/Ishant_Sikdar" className="flex gap-1 md:gap-3 items-center">
               <TwitterIcon className="size-5" />
-              <p className="hover:text-blue-500 transition-colors duration-200 ease-in-out">Twitter</p>
+              <h2 className="hover:text-blue-500 transition-colors duration-200 ease-in-out">Twitter</h2>
             </a>
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function Footer() {
     </div>
 
     <div className="font-medium mx-5 mb-4 text-xs md:text-base flex justify-between md:hidden">
-      <p>Ishant Sikdar © 2024</p>
+      <h1>Ishant Sikdar © 2024</h1>
       <p>Delhi, India</p>
     </div>
   </div>

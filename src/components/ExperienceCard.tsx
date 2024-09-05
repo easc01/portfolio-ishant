@@ -29,7 +29,7 @@ export default function ExperienceCard({ className, organisation, location, desc
       <p className="text-white/70"><span className="font-semibold">{position}</span></p>
 
       <ul className="text-xs pb-4 pt-3 space-y-2">
-        {description.map((desc) => <li>{desc}</li>)}
+        {description.map((desc, idx) => <li key={idx}>{desc}</li>)}
       </ul>
 
       {projects.length > 0 &&

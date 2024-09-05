@@ -19,7 +19,7 @@ export default function Skills() {
       </div>
 
       <div className="px-5">
-        <p className="md:text-center text-sm md:text-lg lg:text-2xl py-4">I apply my knowledge of different <span className="text-orange-300">technologies</span> to deliver <span className="text-cyan-500">practical solutions</span> across multiple platforms</p>
+        <h2 className="md:text-center text-sm md:text-lg lg:text-2xl py-4">I apply my knowledge of different <span className="text-orange-300">technologies</span> to deliver <span className="text-cyan-500">practical solutions</span> across multiple platforms</h2>
 
         <div className="mt-12 flex gap-10 flex-wrap justify-center items-center">
           <JavaIcon size={80} />

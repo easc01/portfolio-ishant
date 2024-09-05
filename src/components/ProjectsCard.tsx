@@ -17,7 +17,7 @@ export default function ProjectCard({ title, description, date, skills, link, gi
     <div className="h-full flex md:flex-col md:gap-8 justify-between w-full md:w-max">
       <div>
         <span className="flex items-center gap-4">
-          <h2 className="text-lg md:text-3xl">{title}</h2>
+          <h1 className="text-lg md:text-3xl">{title}</h1>
         </span>
         <p className="text-sm font-thin">{date}</p>
       </div>
@@ -37,7 +37,7 @@ export default function ProjectCard({ title, description, date, skills, link, gi
     </div>
 
     <div className="w-full md:w-[50%] lg:w-[40%]">
-      <p className="text-xs xl:text-sm py-3">{description}</p>
+      <h2 className="text-xs xl:text-sm py-3">{description}</h2>
 
       <div className="flex gap-2 text-xs flex-wrap">
         {skills.slice(0, 4).map((sk) => <OvalTextBox key={sk} text={sk} />)}

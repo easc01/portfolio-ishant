@@ -1,11 +1,12 @@
-import About from "./components/About"
-import Experience from "./components/Experience"
-import Footer from "./components/Footer"
-import HeroSection from "./components/HeroSection"
-import NavBar from "./components/NavBar"
-import Projects from "./components/Projects"
-import Skills from "./components/Skills"
-import { ScrollProvider } from "./contexts/ScrollContext"
+import About from "../components/About"
+import Experience from "../components/Experience"
+import Footer from "../components/Footer"
+import HeroSection from "../components/HeroSection"
+import NavBar from "../components/NavBar"
+import Projects from "../components/Projects"
+import Skills from "../components/Skills"
+import { ScrollProvider } from "../contexts/ScrollContext"
+import './index.css';
 
 function App() {
   return (

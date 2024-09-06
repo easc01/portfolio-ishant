@@ -1,5 +1,2 @@
 User-agent: *
 Allow: /
-
-# Block specific URLs if needed
-# Disallow: /admin/

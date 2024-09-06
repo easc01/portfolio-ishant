@@ -1,3 +1,5 @@
+'use client'
+
 import { useEffect, useState } from "react";
 import { useScrollContext } from "../contexts/ScrollContext";
 import { scrollToView } from "../lib/utils";

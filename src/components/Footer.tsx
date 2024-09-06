@@ -1,10 +1,8 @@
 import { FileTextIcon } from "@radix-ui/react-icons";
-import { useScrollContext } from "../contexts/ScrollContext";
-import { scrollToView } from "../lib/utils";
 import { GitHubIcon, LeetCodeIcon, LinkedInIcon, MailIcon, TwitterIcon } from "./Icons";
+import FooterNavLinks from "./FooterNavLinks";
 
 export default function Footer() {
-  const [homeRef, experienceRef, projectRef] = useScrollContext();
 
   return <div>
     <div className="p-5 text-white md:p-10 mx-4 mb-4 flex gap-5 flex-col md:flex-row justify-between font-poppins border border-warm-white/20 rounded-xl">
@@ -25,9 +23,7 @@ export default function Footer() {
           <h2 className="md:pb-5 text-sm md:text-base text-orange-300 font-medium">Explore More</h2>
 
           <div className="flex items-start md:flex-col gap-2">
-            <button onClick={() => scrollToView(homeRef)} className="hover:text-blue-500 transition-colors duration-200 ease-in-out">Home</button>
-            <button onClick={() => scrollToView(experienceRef)} className="hover:text-blue-500 transition-colors duration-200 ease-in-out">Experience</button>
-            <button onClick={() => scrollToView(projectRef)} className="hover:text-blue-500 transition-colors duration-200 ease-in-out">Projects</button>
+            <FooterNavLinks />
           </div>
         </div>
 

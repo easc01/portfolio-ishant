@@ -1,3 +1,5 @@
+'use client'
+
 import React, { createContext, useContext, useRef, ReactNode } from 'react';
 
 type ScrollContextType = [React.RefObject<HTMLDivElement>, React.RefObject<HTMLDivElement>, React.RefObject<HTMLDivElement>];

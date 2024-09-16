@@ -54,5 +54,19 @@
             "Docker",
             "CI/CD"
         ]
+    },
+    {
+        "title": "SpaceX",
+        "thumbnail": "/spacex.png",
+        "description": "Developed a UI clone of 'spacex.com' using raw CSS and JavaScript. Created interactive and visually appealing animations to closely match the official 'spacex.com' site.",
+        "link": "https://ishantsikdar.github.io/SpaceX/",
+        "date": "October 2023",
+        "github": "https://github.com/ishantSikdar/SpaceX",
+        "dockerhub": [],
+        "skills": [
+            "JavaScript",
+            "CSS",
+            "HTML"
+        ]
     }
 ]

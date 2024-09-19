@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <meta property="og:description" content="Explore the portfolio of Ishant Sikdar, showcasing full-stack development projects using Next.js, Spring Boot, PostgreSQL, and AWS." />
         <meta property="og:url" content="https://easc01.com" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://easc01.com/logo.png" />
+        <meta property="og:image" content="https://easc01.com/favicon.ico" />
         <meta property="og:image:alt" content="Ishant Sikdar" />
 
         {/* Canonical URL */}
@@ -26,8 +26,12 @@ export default function RootLayout({ children }) {
         {/* Viewport Meta Tag */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        {/* Favicon */}
-        <link rel="icon" type="image/svg+xml" href="/logo.png" />
+        {/* Favicon and App Icons */}
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="shortcut icon" href="/favicon.ico" />
 
         {/* Google Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -63,7 +67,7 @@ export default function RootLayout({ children }) {
               "@type": "Person",
               "name": "Ishant Sikdar",
               "url": "https://easc01.com",
-              "logo": "https://easc01.com/logo.png"
+              "logo": "https://easc01.com/favicon.ico"
             }
           `}
         </Script>

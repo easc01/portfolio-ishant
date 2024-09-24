@@ -290,6 +290,12 @@ export const LinkedInIcon = (props: React.HTMLAttributes<SVGElement>) => (
     </g>
   </svg>
 )
+export const MediumIcon = (props: React.HTMLAttributes<SVGElement>) => (
+  <svg fill="none" height="92" viewBox="0 0 92 92" width="92" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <rect fill="#000" height="91.5618" rx="20" width="91.5618" />
+    <path d="m49.0769 47.0045c0 7.8392-6.4616 14.2047-14.4662 14.2047s-14.4662-6.3655-14.4662-14.2047 6.4616-14.2047 14.4662-14.2047 14.4662 6.3655 14.4662 14.2047zm15.8485 0c0 7.3689-3.2468 13.3581-7.2331 13.3581-3.9862 0-7.2331-5.9892-7.2331-13.3581s3.2469-13.3581 7.2331-13.3581c3.9863 0 7.2331 5.9579 7.2331 13.3581zm6.4937 0c0 6.6163-1.1251 11.9784-2.5396 11.9784-1.4144 0-2.5396-5.3621-2.5396-11.9784s1.1252-11.9784 2.5396-11.9784c1.4145 0 2.5396 5.3621 2.5396 11.9784z" fill="#fff" />
+  </svg>
+)
 
 export const LeetCodeIcon = (props: React.HTMLAttributes<SVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>

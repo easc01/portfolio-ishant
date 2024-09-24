@@ -1,6 +1,6 @@
 import { FileTextIcon } from "@radix-ui/react-icons";
 import { Dock, DockIcon } from "../../@/components/magicui/dock";
-import { GitHubIcon, LeetCodeIcon, LinkedInIcon, MailIcon, TwitterIcon } from "./Icons";
+import { GitHubIcon, LeetCodeIcon, LinkedInIcon, MailIcon, MediumIcon, TwitterIcon } from "./Icons";
 import Tooltip from "./Tooltip";
 
 export default function SocialsDock() {
@@ -15,6 +15,13 @@ export default function SocialsDock() {
           </Tooltip>
         </DockIcon>
         <DockIcon className="transition-colors duration-300 ease-in-out hover:bg-brown-white p-1">
+          <Tooltip text="Medium">
+            <a href="https://medium.com/@ishantsikdar93" target="_blank" >
+              <MediumIcon className="size-7" />
+            </a>
+          </Tooltip>
+        </DockIcon>
+        <DockIcon className="transition-colors duration-300 ease-in-out hover:bg-brown-white p-1">
           <Tooltip text="GitHub">
             <a href="https://github.com/ishantSikdar" target="_blank">
               <GitHubIcon className="size-6" />
@@ -24,14 +31,14 @@ export default function SocialsDock() {
         <DockIcon className="transition-colors duration-300 ease-in-out hover:bg-brown-white p-1">
           <Tooltip text="LeetCode">
             <a href="https://leetcode.com/u/eaSc01" target="_blank">
-              <LeetCodeIcon className="size-6" />
+              <LeetCodeIcon className="size-7" />
             </a>
           </Tooltip>
         </DockIcon>
         <DockIcon className="transition-colors duration-300 ease-in-out hover:bg-brown-white p-1">
           <Tooltip text="Twitter">
             <a href="https://x.com/Ishant_Sikdar" target="_blank">
-              <TwitterIcon className="size-6" />
+              <TwitterIcon className="size-8" />
             </a>
           </Tooltip>
         </DockIcon>

@@ -1,5 +1,5 @@
 import { FileTextIcon } from "@radix-ui/react-icons";
-import { GitHubIcon, LeetCodeIcon, LinkedInIcon, MailIcon, TwitterIcon } from "./Icons";
+import { GitHubIcon, LeetCodeIcon, LinkedInIcon, MailIcon, MediumIcon, TwitterIcon } from "./Icons";
 import FooterNavLinks from "./FooterNavLinks";
 
 export default function Footer() {
@@ -31,19 +31,23 @@ export default function Footer() {
           <h1 className="pb-2 md:pb-5 text-sm md:text-base text-green-500 font-medium">Socials</h1>
 
           <div className="flex items-start flex-wrap md:flex-col text-sm gap-2 md:gap-3">
-            <a href="https://www.linkedin.com/in/ishantsikdar" className="flex gap-1 md:gap-3 items-center">
+            <a href="https://www.linkedin.com/in/ishantsikdar" target="_blank" className="flex gap-1 md:gap-3 items-center">
               <LinkedInIcon className="size-5" />
               <h2 className="hover:text-blue-500 transition-colors duration-200 ease-in-out">LinkedIn</h2>
             </a>
-            <a href="https://github.com/ishantSikdar" className="flex gap-1 md:gap-3 items-center">
+            <a href="https://medium.com/@ishantsikdar93" target="_blank" className="flex gap-1 md:gap-3 items-center">
+              <MediumIcon className="size-5" />
+              <h2 className="hover:text-blue-500 transition-colors duration-200 ease-in-out">Medium</h2>
+            </a>
+            <a href="https://github.com/ishantSikdar" target="_blank" className="flex gap-1 md:gap-3 items-center">
               <GitHubIcon className="size-5" />
               <h2 className="hover:text-blue-500 transition-colors duration-200 ease-in-out">GitHub</h2>
             </a>
-            <a href="https://leetcode.com/u/eaSc01" className="flex gap-1 md:gap-3 items-center">
+            <a href="https://leetcode.com/u/eaSc01" target="_blank" className="flex gap-1 md:gap-3 items-center">
               <LeetCodeIcon className="size-5" />
               <h2 className="hover:text-blue-500 transition-colors duration-200 ease-in-out">LeetCode</h2>
             </a>
-            <a href="https://x.com/Ishant_Sikdar" className="flex gap-1 md:gap-3 items-center">
+            <a href="https://x.com/Ishant_Sikdar" target="_blank" className="flex gap-1 md:gap-3 items-center">
               <TwitterIcon className="size-5" />
               <h2 className="hover:text-blue-500 transition-colors duration-200 ease-in-out">Twitter</h2>
             </a>

@@ -1,6 +1,6 @@
 import DotPattern from "../../@/components/magicui/dot-pattern";
 import { cn } from "../../@/lib/utils";
-import { AWSIcon, DockerIcon, ExpressJSIcon, GitIcon, JavaIcon, JavaScriptIcon, LinuxIcon, MongoDBIcon, NextJSIcon, NodeJSIcon, PostgreSQLIcon, ReactJSIcon, RecoilJSIcon, SpringBootIcon, TailwindIcon, TypeScriptIcon } from "./Icons";
+import { AWSIcon, DjangoIcon, DockerIcon, ExpressJSIcon, FlaskIcon, GitIcon, JavaIcon, JavaScriptIcon, KubernetesIcon, LinuxIcon, MongoDBIcon, NextJSIcon, NodeJSIcon, PostgreSQLIcon, PythonIcon, ReactJSIcon, RecoilJSIcon, RedisIcon, ReduxIcon, SpringBootIcon, TailwindIcon, TypeScriptIcon } from "./Icons";
 
 export default function Skills() {
   return <div className="relative pb-14">
@@ -28,16 +28,22 @@ export default function Skills() {
           <NextJSIcon size={70} />
           <PostgreSQLIcon size={80} />
           <DockerIcon size={80} />
+          <RedisIcon size={80} />
           <ReactJSIcon size={80} />
           <RecoilJSIcon size={70} />
           <MongoDBIcon size={80} />
           <NodeJSIcon size={80} />
           <ExpressJSIcon size={80} />
           <AWSIcon size={80} />
+          {/* <KubernetesIcon size={70} /> */}
           <LinuxIcon size={80} />
           <GitIcon size={80} />
           <JavaScriptIcon size={80} />
           <TailwindIcon size={80} />
+          {/* <ReduxIcon size={70} /> */}
+          {/* <PythonIcon size={70} /> */}
+          {/* <FlaskIcon size={70} /> */}
+          {/* <DjangoIcon size={70} /> */}
         </div>
       </div>
     </div>

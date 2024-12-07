@@ -19,13 +19,12 @@ interface ExperienceCardProps {
 
 
 export default function ExperienceCard({ className, organisation, location, description, position, organisationLink, skills, timeline, isNPO, projects }: ExperienceCardProps) {
-  return <div className={`rounded-xl hover:bg-pitch-black/40 p-5 flex md:gap-5 flex-col md:flex-row justify-center ${className}`}>
+  return <div className={`w-full rounded-xl hover:bg-pitch-black/40 p-5 flex md:gap-5 flex-col md:flex-row justify-center ${className}`}>
     <p className="text-xs text-white/70 pt-1">{timeline}</p>
 
     <div className="md:w-96">
-      <div className="flex">
-        <a href={organisationLink} target="_blank"><span className="font-bold">{organisation}</span>, {location}</a> {isNPO && <OvalTextBox className="text-xs" text="NPO" />}
-      </div>
+      <a href={organisationLink} target="_blank"><span className="font-bold">{organisation}</span></a>
+      <p className="text-xs">{location}</p>
       <p className="text-white/70"><span className="font-semibold">{position}</span></p>
 
       <ul className="text-xs pb-4 pt-3 space-y-2">

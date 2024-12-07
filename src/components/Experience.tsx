@@ -24,7 +24,7 @@ export default function Experience() {
           </div>
 
           {/* Right Side (Experience Cards) */}
-          <div className="lg:w-2/3 lg:px-8 flex flex-col items-center w-full gap-2 z-10">
+          <div className="lg:w-2/3 lg:px-8 flex flex-col items-center justify-center w-full gap-2 z-10">
             {ExperienceTimeline.map((exp, idx) => (
               <ExperienceCard
                 projects={exp.projects}

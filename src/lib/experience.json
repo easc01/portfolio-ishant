@@ -1,75 +1,46 @@
 [
     {
-        "organisation": "Opalina Technologies",
-        "organisationLink": "https://www.opalina.in/",
-        "location": "Noida",
-        "position": "Backend Developer Intern",
+        "organisation": "FUTY",
+        "organisationLink": "https://www.linkedin.com/company/futyyyuk/posts/?feedView=all",
+        "location": "London, United Kingdom",
+        "position": "Frontend Developer",
         "isNPO": false,
         "description": [
-            "Contributed 60,000 lines of code for 2 client projects from scratch using Java, Spring Boot, and MongoDB.",
-            "Improved API performance by 40% with optimized MongoDB queries and aggregation pipelines.",
-            "Consistently delivered functional software on schedule, adhering to project deadlines.",
-            "Thoroughly debugged and resolved software issues, significantly enhancing product quality and reliability."
+            "Contributed to the development of a seamless and high-performance client-side experience for the FUTY fantasy sports platform.",
+            "Worked with TypeScript, React, Redux, React Query, and Tailwind CSS to build engaging and responsive user interfaces.",
+            "Implemented performance optimizations using memoization, virtualization, hashmaps, and efficient data management with Redux and React Query.",
+            "Contributed to enhancing the app performance, improving the user interface to be more interactive and responsive, especially with large datasets."
+        ],
+        "timeline": "Oct 2024 - Dec 2024",
+        "skills": [
+            "React.js",
+            "Redux",
+            "TypeScript",
+            "Tailwind CSS",
+            "React Query"
+        ],
+        "projects": []
+    },
+    {
+        "organisation": "Opalina Technologies",
+        "organisationLink": "https://www.opalina.in/",
+        "location": "Noida, India",
+        "position": "Backend Developer",
+        "isNPO": false,
+        "description": [
+            "Contributed in building Loan Origination System & its CMS using Java, Spring Boot & MongoDB from inception stage to DEV & UAT environments.",
+            "Developed optimised Restful APIs for LOS & CMS systems with minimal response time using MongoDB aggregation pipelines.",
+            "Optimised MongoDB schema and align with evolving software requirements, ensuring data consistency and compatibility.",
+            "Configured CronJobs functions for on time notifications in both LOS & CMS systems & configured Spring Security for LOS Applications for safe and secured user authentication & authorization.",
+            "Worked closely with team to ensure software requirements, identifying problems, analyzing solutions, debugging issues and on time delivery of features."
         ],
         "timeline": "Nov 23 - May 2024",
         "skills": [
             "Java",
             "Spring Boot",
-            "REST APIs",
             "MongoDB",
-            "Git",
-            "Linux",
             "AWS"
         ],
         "projects": []
-    },
-    {
-        "organisation": "Alumni Relational Cell",
-        "location": "Maharaja Surajmal Institute",
-        "organisationLink": "https://www.linkedin.com/company/alumni-association-student-council/",
-        "isNPO": true,
-        "position": "Fullstack Developer",
-        "description": [
-            "Developed a web application for the Alumni Cell at Maharaja Surajmal Institute, showcasing events, teams, and galleries.",
-            "Engineered a responsive and modern user interface using React.js and Tailwind CSS, enhancing user experience."
-        ],
-        "timeline": "Mar 2024 - Present",
-        "skills": [
-            "React.js",
-            "JavaScript",
-            "Tailwind CSS",
-            "Vite",
-            "Vercel"
-        ],
-        "projects": [
-            {
-                "title": "ARC - MSI",
-                "link": "https://aasc-client-dev.vercel.app/"
-            }
-        ]
-    },
-    {
-        "organisation": "Computer Society of India",
-        "location": "Maharaja Surajmal Institute",
-        "organisationLink": "https://www.linkedin.com/company/csi-msi/?originalSubdomain=in",
-        "isNPO": true,
-        "position": "Frontend Developer",
-        "description": [
-            "Developed a web portfolio for Melius - Consulting and Analytics Club, Delhi, to showcase their teams, events, and projects.",
-            "Designed and implemented a seamless user interface using React.js and Tailwind CSS, enhancing the client-side experience."
-        ],
-        "timeline": "Apr 2023 - Present",
-        "skills": [
-            "React.js",
-            "JavaScript",
-            "Tailwind CSS",
-            "Git"
-        ],
-        "projects": [
-            {
-                "title": "Melius - MSI",
-                "link": "https://www.meliuscac.in/"
-            }
-        ]
     }
 ]

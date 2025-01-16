@@ -11,11 +11,11 @@
             "Implemented performance optimizations using memoization, virtualization, hashmaps, and efficient data management with Redux and React Query.",
             "Contributed to enhancing the app performance, improving the user interface to be more interactive and responsive, especially with large datasets."
         ],
-        "timeline": "Oct 2024 - Dec 2024",
+        "timeline": "Oct 2024 - Present",
         "skills": [
+            "TypeScript",
             "React.js",
             "Redux",
-            "TypeScript",
             "Tailwind CSS",
             "React Query"
         ],

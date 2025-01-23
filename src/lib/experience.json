@@ -6,7 +6,7 @@
         "position": "Software Engineer",
         "isNPO": false,
         "description": [
-            "Contributed to the development of a seamless and high-performance client-side experience for the FUTY fantasy sports platform.",
+            "Contributed to the frontend development of the PlayFuty, a Telegram fantasy sports platform for Football Premier League.",
             "Worked with TypeScript, React, Redux, React Query, and Tailwind CSS to build engaging and responsive user interfaces.",
             "Implemented performance optimizations using memoization, virtualization, hashmaps, and efficient data management with Redux and React Query.",
             "Contributed to enhancing the app performance, improving the user interface to be more interactive and responsive, especially with large datasets."

@@ -33,7 +33,7 @@ export default function ExperienceCard({ className, organisation, location, desc
 
       {projects.length > 0 &&
         <div className="text-sm flex gap-2 flex-wrap text-white/80 pb-3">
-          {projects.map((project, idx) => <a key={idx} href={project.link} className="flex items-center">
+          {projects.map((project, idx) => <a key={idx} href={project.link} target="_blank" className="flex items-center">
             <LinkIcon />
             {project.title}
           </a>)}

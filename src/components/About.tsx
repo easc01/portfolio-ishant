@@ -10,7 +10,7 @@ export default function About() {
     <div className="md:text-right  flex flex-col items-end">
       <div className="md:w-[70%]">
         <h2 className="md:text-3xl">I expertise in building apps on <span className="px-2 bg-white font-bold text-pitch-black rounded-md">Java</span> and <span className="px-2 bg-white font-bold text-pitch-black rounded-md">TypeScript</span></h2>
-        <h2 className="text-xl md:text-4xl">Currently working on <span className="text-cyan-400">Next.js</span> and <span className="text-orange-300">Spring Boot</span> with <span className="text-purple-500">Cloud Computing</span>.</h2>
+        <h2 className="text-xl md:text-4xl">Currently working on <span className="text-cyan-400">React.js</span>, <span className="text-orange-300">Nest.js</span> <br/> and <span className="text-purple-500">Cloud Computing</span>.</h2>
       </div>
     </div>
   </div>

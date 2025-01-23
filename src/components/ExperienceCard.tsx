@@ -15,7 +15,7 @@ interface ExperienceCardProps {
     title: string,
     link: string
   }[],
-}
+};
 
 
 export default function ExperienceCard({ className, organisation, location, description, position, organisationLink, skills, timeline, isNPO, projects }: ExperienceCardProps) {

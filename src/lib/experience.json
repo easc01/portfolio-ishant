@@ -19,7 +19,16 @@
             "Tailwind CSS",
             "React Query"
         ],
-        "projects": []
+        "projects": [
+            {
+                "title": "PlayFuty App",
+                "link": "https://t.me/FutyWebAppBot?startapp=MKN0P1IR"
+            },
+            {
+                "title": "playfuty.com",
+                "link": "https://www.playfuty.com"
+            }
+        ]
     },
     {
         "organisation": "Opalina Technologies",

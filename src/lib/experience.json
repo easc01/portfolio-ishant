@@ -6,16 +6,17 @@
         "position": "Software Engineer",
         "isNPO": false,
         "description": [
-            "Contributed to the frontend development of the PlayFuty, a Telegram fantasy sports platform for Football Premier League.",
-            "Worked with TypeScript, React, Redux, React Query, and Tailwind CSS to build engaging and responsive user interfaces.",
-            "Implemented performance optimizations using memoization, virtualization, hashmaps, and efficient data management with Redux and React Query.",
-            "Contributed to enhancing the app performance, improving the user interface to be more interactive and responsive, especially with large datasets."
+            "Contributed to the development of PlayFuty, a Fantasy Sports Telegram Mini App, along with its CMS and Website.",
+            "Developed interactive fantasy games using TypeScript, React.js, and Tailwind CSS. Along with Redux and React Query for efficient data fetching and caching.",
+            "Implemented animation effects across all CTAs using Framer Motion, along with a custom-built audio manager to provide audio and haptic feedback.",
+            "Improved overall app performance through memoization, virtualization, fuzzy searching, and hashmaps, ensuring smooth user interactions."
         ],
         "timeline": "Oct 2024 - Present",
         "skills": [
             "TypeScript",
             "React.js",
             "Redux",
+            "MySQL",
             "Tailwind CSS",
             "React Query"
         ],
@@ -39,11 +40,10 @@
         "description": [
             "Contributed in building Loan Origination System & its CMS using Java, Spring Boot & MongoDB from inception stage to DEV & UAT environments.",
             "Developed optimised Restful APIs for LOS & CMS systems with minimal response time using MongoDB aggregation pipelines.",
-            "Optimised MongoDB schema and align with evolving software requirements, ensuring data consistency and compatibility.",
-            "Configured CronJobs functions for on time notifications in both LOS & CMS systems & configured Spring Security for LOS Applications for safe and secured user authentication & authorization.",
-            "Worked closely with team to ensure software requirements, identifying problems, analyzing solutions, debugging issues and on time delivery of features."
+            "Optimised MongoDB schema and aligned with evolving software requirements, ensuring data consistency and compatibility.",
+            "Configured CronJobs functions for on-time notifications in both LOS & CMS systems & configured Spring Security for LOS Applications for safe and secured user authentication & authorization."
         ],
-        "timeline": "Nov 23 - May 2024",
+        "timeline": "Nov 2023 - May 2024",
         "skills": [
             "Java",
             "Spring Boot",

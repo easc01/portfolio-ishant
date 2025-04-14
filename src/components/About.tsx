@@ -23,9 +23,9 @@ export default function About() {
             </span>
           </h2>
           <h2 className="text-xl md:text-4xl">
-            Currently working on <span className="text-cyan-400">React.js</span>
-            , <span className="text-orange-300">Nest.js</span> <br /> and{" "}
-            <span className="text-purple-500">Cloud Computing</span>.
+            Currently working on <span className="text-cyan-400">Golang</span>,{" "}
+            <span className="text-orange-300">Nest.js</span> <br /> and{" "}
+            <span className="text-purple-500">AWS</span>.
           </h2>
         </div>
       </div>

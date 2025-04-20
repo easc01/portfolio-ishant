@@ -39,7 +39,7 @@ export default function Footer() {
               <MediumIcon className="size-5" />
               <h2 className="hover:text-blue-500 transition-colors duration-200 ease-in-out">Medium</h2>
             </a>
-            <a href="https://github.com/ishantSikdar" target="_blank" className="flex gap-1 md:gap-3 items-center">
+            <a href="https://github.com/easc01" target="_blank" className="flex gap-1 md:gap-3 items-center">
               <GitHubIcon className="size-5" />
               <h2 className="hover:text-blue-500 transition-colors duration-200 ease-in-out">GitHub</h2>
             </a>

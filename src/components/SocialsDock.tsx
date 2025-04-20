@@ -23,7 +23,7 @@ export default function SocialsDock() {
         </DockIcon>
         <DockIcon className="transition-colors duration-300 ease-in-out hover:bg-brown-white p-1">
           <Tooltip text="GitHub">
-            <a href="https://github.com/ishantSikdar" target="_blank">
+            <a href="https://github.com/easc01" target="_blank">
               <GitHubIcon className="size-6" />
             </a>
           </Tooltip>

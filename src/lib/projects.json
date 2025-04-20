@@ -3,7 +3,7 @@
         "title": "Disaster Data API",
         "description": "Real-time system designed to collect, process, and distribute media content related to natural disasters from social media platforms and distribute using HTTP protocol.",
         "date": "Aug 2024",
-        "github": "https://github.com/ishantSikdar/disaster-media-api",
+        "github": "https://github.com/easc01/disaster-media-api",
         "skills": [
             "Java",
             "Spring Boot",
@@ -17,7 +17,7 @@
         "thumbnail": "/ewallet.png",
         "description": "Aims to perform operations like a real e-wallet applications like PayTM. Transfer funds from one user to another, deposit and withdraw funds from external banks.",
         "date": "July 2024",
-        "github": "https://github.com/ishantSikdar/ewallet",
+        "github": "https://github.com/easc01/ewallet",
         "skills": [
             "TypeScript",
             "Next.js",
@@ -38,7 +38,7 @@
         "thumbnail": "/sway.png",
         "description": "Streamline access to educational content from YouTube. Users can search for topics that they want to study, and the app will provide curated subtopics with relevant YouTube videos.",
         "date": "June 2024",
-        "github": "https://github.com/ishantSikdar/sway-client",
+        "github": "https://github.com/easc01/sway-client",
         "skills": [
             "React.js",
             "Node.js",
@@ -57,9 +57,9 @@
         "title": "SpaceX",
         "thumbnail": "/spacex.png",
         "description": "Developed a UI clone of 'spacex.com' using raw CSS and JavaScript. Created interactive and visually appealing animations to closely match the official 'spacex.com' site.",
-        "link": "https://ishantsikdar.github.io/SpaceX/",
+        "link": "https://easc01.github.io/SpaceX/",
         "date": "October 2023",
-        "github": "https://github.com/ishantSikdar/SpaceX",
+        "github": "https://github.com/easc01/SpaceX",
         "dockerhub": [],
         "skills": [
             "JavaScript",

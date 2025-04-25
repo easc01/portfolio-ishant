@@ -13,12 +13,11 @@
         ],
         "timeline": "Oct 2024 - Present",
         "skills": [
-            "TypeScript",
+            "React Native",
             "React.js",
-            "Redux",
-            "MySQL",
-            "Tailwind CSS",
-            "React Query"
+            "NestJS",
+            "Node.ja",
+            "MySQL"
         ],
         "projects": [
             {

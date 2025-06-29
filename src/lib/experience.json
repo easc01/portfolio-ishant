@@ -6,41 +6,31 @@
         "position": "Software Engineer",
         "isNPO": false,
         "description": [
-            "Contributed to the development of PlayFuty, a Fantasy Sports Telegram Mini App, along with its CMS and Website.",
-            "Developed interactive fantasy games using TypeScript, React.js, and Tailwind CSS. Along with Redux and React Query for efficient data fetching and caching.",
-            "Implemented animation effects across all CTAs using Framer Motion, along with a custom-built audio manager to provide audio and haptic feedback.",
-            "Improved overall app performance through memoization, virtualization, fuzzy searching, and hashmaps, ensuring smooth user interactions."
+            "Cut down API latency by 90% (from 2.5s to 200ms) in a real-time battleship game by using NestJS (Fastify), Redis, BullMQ, and MySQL.",
+            "Served 12K+ users with a frontend for a fantasy sports platform by using React.js, Tailwind CSS, and deploying assets via S3 and CloudFront.",
+            "Enabled scalable and secure loan management operations by architecting an LMS using Node.js, React, and MySQL.",
+            "Simplified File Management System handling by developing a service module to CRUD binary files across AWS S3 and MinIO, supporting static file serving and multipart uploads."
         ],
-        "timeline": "Oct 2024 - Present",
+        "timeline": "Oct 2024 - June 2025",
         "skills": [
-            "React Native",
-            "React.js",
-            "NestJS",
             "Node.js",
-            "MySQL"
-        ],
-        "projects": [
-            {
-                "title": "PlayFuty App",
-                "link": "https://t.me/FutyWebAppBot?startapp=MKN0P1IR"
-            },
-            {
-                "title": "playfuty.com",
-                "link": "https://www.playfuty.com"
-            }
+            "NestJS",
+            "MySQL",
+            "React.js",
+            "React Native"
         ]
     },
     {
         "organisation": "Opalina Technologies",
         "organisationLink": "https://www.opalina.in/",
         "location": "Noida, India",
-        "position": "Backend Developer",
+        "position": "Backend Engineer",
         "isNPO": false,
         "description": [
-            "Contributed in building Loan Origination System & its CMS using Java, Spring Boot & MongoDB from inception stage to DEV & UAT environments.",
-            "Developed optimised Restful APIs for LOS & CMS systems with minimal response time using MongoDB aggregation pipelines.",
-            "Optimised MongoDB schema and aligned with evolving software requirements, ensuring data consistency and compatibility.",
-            "Configured CronJobs functions for on-time notifications in both LOS & CMS systems & configured Spring Security for LOS Applications for safe and secured user authentication & authorization."
+            "Enabled seamless origination, repayment, and tracking workflows by delivering a production-grade Loan Management System using Java (Spring Boot) and MongoDB.",
+            "Handled thousands of loan records with zero downtime by serving ~1,000 end users across partner financial institutions post-launch.",
+            "Improved backend throughput by over 60% under load by leveraging Java multithreading to process concurrent loan applications and repayment validations.",
+            "Reduced database response times by 70% by implementing advanced MongoDB aggregation pipelines."
         ],
         "timeline": "Nov 2023 - May 2024",
         "skills": [

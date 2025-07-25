@@ -3,7 +3,7 @@
         "organisation": "FUTY",
         "organisationLink": "https://www.linkedin.com/company/futyyyuk/posts/?feedView=all",
         "location": "London, United Kingdom",
-        "position": "Software Engineer",
+        "position": "Software Development Engineer",
         "isNPO": false,
         "description": [
             "Cut down API latency by 90% (from 2.5s to 200ms) in a real-time battleship game by using NestJS (Fastify), Redis, BullMQ, and MySQL.",
@@ -11,7 +11,7 @@
             "Enabled scalable and secure loan management operations by architecting an LMS using Node.js, React, and MySQL.",
             "Simplified File Management System handling by developing a service module to CRUD binary files across AWS S3 and MinIO, supporting static file serving and multipart uploads."
         ],
-        "timeline": "Oct 2024 - June 2025",
+        "timeline": "July 2024 - July 2025",
         "skills": [
             "Node.js",
             "NestJS",
@@ -25,7 +25,7 @@
         "organisation": "Opalina Technologies",
         "organisationLink": "https://www.opalina.in/",
         "location": "Noida, India",
-        "position": "Backend Engineer",
+        "position": "Software Engineer",
         "isNPO": false,
         "description": [
             "Enabled seamless origination, repayment, and tracking workflows by delivering a production-grade Loan Management System using Java (Spring Boot) and MongoDB.",

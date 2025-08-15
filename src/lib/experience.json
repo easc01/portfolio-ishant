@@ -2,14 +2,17 @@
     {
         "organisation": "FUTY",
         "organisationLink": "https://www.linkedin.com/company/futyyyuk/posts/?feedView=all",
-        "location": "London, United Kingdom",
+        "location": "London, United Kingdom - Remote",
         "position": "Software Development Engineer",
         "isNPO": false,
         "description": [
-            "Cut down API latency by 90% (from 2.5s to 200ms) in a real-time battleship game by using NestJS (Fastify), Redis, BullMQ, and MySQL.",
-            "Served 12K+ users with a frontend for a fantasy sports platform by using React.js, Tailwind CSS, and deploying assets via S3 and CloudFront.",
-            "Enabled scalable and secure loan management operations by architecting an LMS using Node.js, React, and MySQL.",
-            "Simplified File Management System handling by developing a service module to CRUD binary files across AWS S3 and MinIO, supporting static file serving and multipart uploads."
+            "Designed and delivered multiple production-ready modules for gaming and fintech applications across DEV, UAT, and PROD environments, using React, Node.js, and SQL, ensuring smooth feature deployments.",
+            "Reduced API latency by 90% in a real-time battleship-style game by implementing asynchronous job processing with BullMQ and Redis caching, improving in-game responsiveness from 2.5 seconds to 200ms.",
+            "Built a high-availability fantasy sports platform (“FUTY”) for 2K+ users using React, TailwindCSS, and AWS S3 + CloudFront, achieving sub-200ms asset delivery via CDN.",
+            "Refactored the core AWS S3 integration to support MinIO-compatible endpoints, enabling the use of self-hosted object storage for cost savings and data control.",
+            "Developed a robust loan management system with Node.js, React, and SQL, incorporating form validations, transaction tracking, and error handling to reduce loan tracking errors by 35%.",
+            "Mentored junior developers through code reviews, pair programming, and debugging sessions, improving overall team code quality and reducing bug recurrence.",
+            "Collaborated with cross-functional teams via Agile sprints and Jira tracking, ensuring clear requirements and delivering product features on time in over 95% of sprints."
         ],
         "timeline": "July 2024 - July 2025",
         "skills": [
@@ -28,10 +31,11 @@
         "position": "Software Engineer",
         "isNPO": false,
         "description": [
-            "Enabled seamless origination, repayment, and tracking workflows by delivering a production-grade Loan Management System using Java (Spring Boot) and MongoDB.",
-            "Handled thousands of loan records with zero downtime by serving ~1,000 end users across partner financial institutions post-launch.",
-            "Improved backend throughput by over 60% under load by leveraging Java multithreading to process concurrent loan applications and repayment validations.",
-            "Reduced database response times by 70% by implementing advanced MongoDB aggregation pipelines."
+            "Architected and developed a loan management & collection system using Java, Spring Boot, and MongoDB, deploying it across DEV, UAT, and PROD environments, processed 1,000+ loan applications and accounts post launch.",
+            "Implemented push notification scheduling using Cron jobs and batch processing to remind employees about daily tasks, improving timely task completion by 80%.",
+            "Optimized MongoDB performance by simplifying and restructuring the schema for maintainability while meeting business requirements, resulting in easier query handling and reduced development complexity.",
+            "Reduced MongoDB query response times by 70% through aggregation pipeline optimization, strategic indexing, and schema tuning, significantly improving API response times.",
+            "Participated in Agile sprints by contributing to sprint planning, backlog discussions, and peer code reviews, helping ensure timely delivery of planned features in a fast-paced environment."
         ],
         "timeline": "Nov 2023 - May 2024",
         "skills": [
